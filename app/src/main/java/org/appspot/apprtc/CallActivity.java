@@ -173,7 +173,7 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
   // True if local view is in the fullscreen renderer.
   private boolean isSwappedFeeds;
 
-  // Controls
+  // Controls zhongyang.hu for test git
   private CallFragment callFragment;
   private HudFragment hudFragment;
   private CpuMonitor cpuMonitor;
@@ -371,6 +371,7 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
       startCall();
     }
   }
+
 
   @TargetApi(17)
   private DisplayMetrics getDisplayMetrics() {
